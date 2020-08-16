@@ -1,34 +1,34 @@
 ul {
-  list-style: none; /*убираем маркеры списка*/
-  margin: 0; /*убираем отступы*/
-  padding-left: 0; /*убираем отступы*/
-  margin-top:25px; /*делаем отступ сверху*/
-  background:#00BFFF; /*добавляем фон всему меню*/
-  height: 50px; /*задаем высоту*/
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  margin-top:25px; 
+  background:#00BFFF;
+  height: 50px; 
 }
 a {
-  text-decoration: none; /*убираем подчеркивание текста ссылок*/
-  background:#00BFFF; /*добавляем фон к пункту меню*/
-  color:#fff; /*меняем цвет ссылок*/
-  padding:0px 15px; /*добавляем отступ*/
-  font-family: impact; /*меняем шрифт*/
-  line-height:50px; /*ровняем меню по вертикали*/
+  text-decoration: none; 
+  background:#00BFFF; 
+  color:#fff; 
+  padding:0px 15px; 
+  font-family: impact; 
+  line-height:50px; 
   display: block; 
-  border-right: 1px solid #677B27; /*добавляем бордюр справа*/
-  -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+  border-right: 1px solid #677B27;
+  -moz-transition: all 0.3s 0.01s ease; 
   -o-transition: all 0.3s 0.01s ease;
   -webkit-transition: all 0.3s 0.01s ease;
 
 }
 a:hover {
-  background:#E6E6E6;/*добавляем эффект при наведении*/
+  background:#E6E6E6;
 }
 li {
-  float:left; /*Размещаем список горизонтально для реализации меню*/
-  position:relative; /*задаем позицию для позиционирования*/
+  float:left;
+  position:relative; 
 }
      
-    /*Стили для скрытого выпадающего меню*/
+   
     li > ul {
         position:absolute;
         top:25px;
@@ -36,13 +36,13 @@ li {
  background:#E6E6E6;		
     }
      
-    /*Делаем скрытую часть видимой*/
+   
     li:hover > ul {
         display:block; 
-        width:900px;  /*Задаем ширину выпадающего меню*/      
+        width:900px;       
 		 background:#E6E6E6;
     }
    li:hover > ul > li {
-        float:yes; /*Убираем горизонтальное позиционирование*/
+        float:yes;
 		 background:#E6E6E6;
     }
